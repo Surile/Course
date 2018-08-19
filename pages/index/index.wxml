@@ -1,0 +1,13 @@
+  <view class='container'>
+    <view class='imgs'>
+      <image src='../../images/show.jpg' mode='widthFix'></image>
+    </view>
+
+      <button class="service" open-type="contact" session-from="weapp">
+    </button>  
+    <view class='services'><text>联系客服</text></view>
+
+    <view class='cell' bindtap='cell'>
+      <text>客服电话：{{phone}}</text>
+    </view>
+</view>
